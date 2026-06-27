@@ -1,6 +1,6 @@
-# Receitagram
+# FoodBook
 
-Receitagram é um aplicativo Android em Java para compartilhar receitas em formato de rede social. O projeto inclui um app Android e uma API REST local em Java.
+FoodBook é um aplicativo Android em Java para compartilhar receitas em formato de rede social. O projeto inclui um app Android e uma API REST local em Java.
 
 ## Funcionalidades
 
@@ -27,8 +27,8 @@ No terminal, a partir da pasta do projeto:
 ```bash
 cd backend
 mkdir out
-javac -encoding UTF-8 -d out src/main/java/com/receitagram/api/RecipeApiServer.java
-java -cp out com.receitagram.api.RecipeApiServer
+javac -encoding UTF-8 -d out src/main/java/com/FoodBook/api/RecipeApiServer.java
+java -cp out com.FoodBook.api.RecipeApiServer
 ```
 
 A API ficará disponível em:
@@ -53,7 +53,7 @@ GET http://localhost:8080/health
 
 O app usa a URL `http://10.0.2.2:8080`, que é o endereço usado pelo emulador Android para acessar o `localhost` do computador.
 
-Se for testar em um celular físico, altere a constante `BASE_URL` em `app/src/main/java/com/receitagram/app/data/ApiClient.java` para o IP do computador na mesma rede, por exemplo:
+Se for testar em um celular físico, altere a constante `BASE_URL` em `app/src/main/java/com/FoodBook/app/data/ApiClient.java` para o IP do computador na mesma rede, por exemplo:
 
 ```java
 private static final String BASE_URL = "http://192.168.0.10:8080";
@@ -71,3 +71,6 @@ Também é possível criar uma nova conta pela tela inicial do app.
 ## Observações
 
 Esta versão usa dados em memória na API. Ao encerrar o servidor, novos usuários, curtidas, salvos e receitas publicadas durante a sessão são perdidos. Isso mantém o projeto simples para estudo e demonstração; para produção, o próximo passo seria persistir os dados em um banco como PostgreSQL, MySQL ou SQLite.
+
+
+Consulte tambem `docs/API.md` dentro do projeto para detalhes das rotas.

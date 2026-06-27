@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.receitagram.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\vinij\\Documents\\Codex\\2026-06-26\\create-an-android-app-that-works\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "48",
+                        "endOffsets": "60"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "357",
+                        "endColumns": "48",
+                        "endOffsets": "401"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vinij\\Documents\\Codex\\2026-06-26\\create-an-android-app-that-works\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "426"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "406",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "816"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vinij\\Documents\\Codex\\2026-06-26\\create-an-android-app-that-works\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,5,1,2,4,6,7",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "101,184,16,56,142,229,273",
+                        "endColumns": "40,44,39,44,41,43,44",
+                        "endOffsets": "137,224,51,96,179,268,313"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,141,181,226,268,312",
+                        "endColumns": "40,44,39,44,41,43,44",
+                        "endOffsets": "91,136,176,221,263,307,352"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<resources>
+    <color name="brand">#1F7A53</color>
+    <color name="brand_dark">#15543A</color>
+    <color name="accent">#E0662F</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F6F3EE</color>
+    <color name="text_main">#222222</color>
+    <color name="text_muted">#666666</color>
+</resources>

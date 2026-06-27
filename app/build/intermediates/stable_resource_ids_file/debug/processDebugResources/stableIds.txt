@@ -1,0 +1,11 @@
+com.receitagram.app:xml/network_security_config = 0x7f050000
+com.receitagram.app:style/AppTheme = 0x7f040000
+com.receitagram.app:string/app_name = 0x7f030000
+com.receitagram.app:color/surface = 0x7f010004
+com.receitagram.app:color/brand_dark = 0x7f010003
+com.receitagram.app:color/text_main = 0x7f010005
+com.receitagram.app:color/brand = 0x7f010002
+com.receitagram.app:color/text_muted = 0x7f010006
+com.receitagram.app:color/background = 0x7f010001
+com.receitagram.app:drawable/ic_launcher = 0x7f020000
+com.receitagram.app:color/accent = 0x7f010000
